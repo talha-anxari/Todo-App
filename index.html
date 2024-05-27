@@ -1,0 +1,32 @@
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <!-- font Awesome Icon link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="favicon/ico.png" type="image/x-icon">
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Script js link -->
+    <script defer src="js/index.js"></script>
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="container">
+                <div id="wrapper">
+                    <input type="text" placeholder="Task To Be Done...">
+                    <button id="add_btn">Add</button>
+                </div>
+                <div id="tasks">
+                    <p id="pending_tasks">You Have
+                        <span class="count_value">0</span> (s) Task To Complete.
+                    </p>
+                </div>
+            </div>
+            <p id="error">Input Cannot Be Empty</p>
+        </div>
+    </body>
+
+</html>
